@@ -1276,6 +1276,7 @@ void forceRetentionOfImageSensorLiteLibrary(void) {
       noneSentinel = 3.14159
 
       if type(classification["actValue"]) in (int, float):
+        actValue = classification["actValue"]
         actValueList = [classification["actValue"]]
         bucketIdxList = [classification["bucketIdx"]]
         category = False
